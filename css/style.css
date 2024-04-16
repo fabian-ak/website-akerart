@@ -1,0 +1,169 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+}
+
+.logo-container img {
+    height: 70px; /* Adjust the size as necessary */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 35px; /* Icon size, can be adjusted as needed */
+}
+
+/* Banner Styles */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 190px 0;
+    text-align: center;
+    background-size: cover; /* Ensures the background image covers the banner */
+}
+
+.banner-content {
+    color: #fff;
+}
+
+.banner-title {
+    color: floralwhite;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.banner-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem; /* Add bottom margin for spacing before button */
+}
+
+/* Contact Button Styles */
+.contact-button {
+    padding: 10px 20px;
+    background-color: deeppink; /* Pink color for the button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 1rem; /* Adjust as needed */
+    margin-top: 1rem; /* Adds space above the button */
+}
+
+.contact-button:hover {
+    background-color: #c2185b; /* Darker shade for hover effect */
+}
+
+/* Portfolio Styles */
+#portfolio {
+    padding: 2rem;
+    text-align: center;
+}
+
+.section-title {
+    color: deeppink;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.section-description {
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.artwork {
+    width: 48%; /* Adjust based on padding and margin to fit 2 items per row */
+    margin-bottom: 1rem;
+}
+
+.artwork img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Contact Styles */
+#contact {
+    background: #fff;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact .section-title {
+    color: deeppink;
+    font-size: 3rem; /* Keep your preferred size */
+}
+
+.contact-content {
+    width: 80%;
+    text-align: center;
+    padding: 1rem;
+}
+
+#contact iframe {
+    width: 100%;
+    max-width: 500px;
+    height: 350px;
+    border: none;
+    margin-bottom
+
+/* Reset for the footer to avoid inheritance issues */
+footer * {
+    margin: 0;
+    padding: 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #eee; /* Light grey color */
+    color: #333;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+footer .footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
